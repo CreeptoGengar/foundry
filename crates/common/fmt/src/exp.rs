@@ -8,10 +8,10 @@ use yansi::Paint;
 /// Examples:
 ///
 /// ```text
-/// precision = 4, trim_end_zeroes = false
+/// precision = 4, trim_end_zeros = false
 ///     1234124124 -> 1.234e9
 ///     10000000 -> 1.000e7
-/// precision = 3, trim_end_zeroes = true
+/// precision = 3, trim_end_zeros = true
 ///     1234124124 -> 1.23e9
 ///     10000000 -> 1e7
 /// ```
